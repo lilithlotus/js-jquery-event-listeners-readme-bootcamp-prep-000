@@ -10,11 +10,15 @@ function frameIt() {
   });
 }
 
-function submitIt(){
-
+function pressIt(){
+  $("#typing").on("keydown", function() {
+    if(key.which == 71) {
+      alert("You have pressed the G key.");
+    }
+  });
 }
 
-function pressIt(){
+function submitIt(){
 
 }
 
